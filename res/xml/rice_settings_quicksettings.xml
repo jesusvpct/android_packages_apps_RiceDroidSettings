@@ -248,6 +248,18 @@
             android:min="0" />
 
     </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="tile_vibration_category"
+        android:title="@string/qs_tile_vibration_category_title">
+
+        <com.rice.settings.preferences.SecureSettingSwitchPreference
+            android:key="quick_settings_vibrate"
+            android:title="@string/quick_settings_vibrate_title"
+            android:summary="@string/quick_settings_vibrate_summary"
+            android:defaultValue="false"/>
+
+    </PreferenceCategory>
     
     <PreferenceCategory
         android:key="tile_layout_category"
