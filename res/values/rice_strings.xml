@@ -1142,8 +1142,8 @@
     
     <!-- QS tiles layout direction: vertical or horizontal -->
     <string name="qs_tile_layout_category_title">Tile layout</string>
-    <string name="qs_tile_layout_title">Vertical layout</string>
-    <string name="qs_tile_layout_summary">Enable for vertical layout. Default is horizontal</string>
+    <string name="qs_tile_layout_title">Title Alignment</string>
+    <string name="qs_tile_layout_summary">Enable for centered layout.</string>
 
     <!-- QS rows and columns -->
     <string name="qs_layout_category_title">QS Layout</string>
@@ -1226,4 +1226,6 @@
     <string name="qs_tile_vibration_category_title">Tile vibration options</string>
     <string name="quick_settings_vibrate_title">Vibrate on touch</string>
     <string name="quick_settings_vibrate_summary">Vibrate when touching QS tiles</string>
+    <string name="quick_settings_vibrate_duration_title">Vibration duration</string>
+    <string name="quick_settings_vibrate_duration_summary">How many milliseconds to vibrate</string>
 </resources>

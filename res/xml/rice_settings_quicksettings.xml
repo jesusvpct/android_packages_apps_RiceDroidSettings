@@ -259,6 +259,15 @@
             android:summary="@string/quick_settings_vibrate_summary"
             android:defaultValue="false"/>
 
+        <com.rice.settings.preferences.SecureSettingSeekBarPreference
+            android:key="quick_settings_vibrate_duration"
+            android:title="@string/quick_settings_vibrate_duration_title"
+            android:summary="@string/quick_settings_vibrate_duration_summary"
+            android:max="200"
+            android:min="10"
+            android:defaultValue="45"
+            android:dependency="quick_settings_vibrate" />
+
     </PreferenceCategory>
     
     <PreferenceCategory
