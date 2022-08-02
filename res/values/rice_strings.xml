@@ -171,6 +171,9 @@
     <!-- Lockscreen battery info indicator -->
     <string name="lockscreen_battery_info_title">Battery info</string>
     <string name="lockscreen_battery_info_summary">Display battery info when charging</string>
+    <!-- Lockscreen charge temperature unit -->
+    <string name="lockscreen_charge_temp_unit_title">Temperature unit</string>
+    <string name="lockscreen_charge_temp_unit_summary">Enable for Celcius, disable for Fahrenheit</string>
 
     <!-- Lockscreen clock color -->
     <string name="lockscreen_clock_color_title">Lockscreen clock color</string>

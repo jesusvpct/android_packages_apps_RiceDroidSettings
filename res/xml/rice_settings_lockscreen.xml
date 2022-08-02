@@ -61,6 +61,14 @@
             android:summary="@string/lockscreen_battery_info_summary"
             android:defaultValue="true" />
 
+	<com.rice.settings.preferences.SystemSettingSwitchPreference
+            android:key="lockscreen_charge_temp_unit"
+            android:icon="@drawable/ic_battery"
+            android:title="@string/lockscreen_charge_temp_unit_title"
+            android:summary="@string/lockscreen_charge_temp_unit_summary"
+            android:defaultValue="true"
+            android:dependency="lockscreen_battery_info" />
+
         <com.rice.settings.preferences.SystemSettingSwitchPreference
             android:key="use_secondary_color_clock"
             android:icon="@drawable/ic_lock_clock"
