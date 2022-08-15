@@ -1094,14 +1094,11 @@
     
    <!-- Custom settings dashboard style -->
     <string name="settings_dashboard_style_title">Settings Styles</string>
-    <string name="settings_dashboard_style_oos">RiceUI Gapps</string>
-    <string name="settings_dashboard_style_oos2">RiceUI MicroG</string>
-    <string name="settings_dashboard_style_wave">MaterialUI Gapps</string>
-    <string name="settings_dashboard_style_wave2">MaterialUI MicroG</string>
-    <string name="settings_dashboard_style_rui">PalletteUI Gapps</string>
-    <string name="settings_dashboard_style_rui2">PalletteUI MicroG</string>
-    <string name="settings_dashboard_style_arc">ArcUI Gapps</string>
-    <string name="settings_dashboard_style_arc2">ArcUI MicroG</string>
+    <string name="settings_dashboard_style_oos">Sushi style</string>
+    <string name="settings_dashboard_style_wave">Material style</string>
+    <string name="settings_dashboard_style_rui">Palette style</string>
+    <string name="settings_dashboard_style_arc">Arcane style</string>
+    <string name="settings_dashboard_style_aosp">AOSP/Pixel style</string>
     <string name="settings_base_style_title">Settings background style</string>
     <string name="settings_base_style_summary">Use dual tone background for settings</string>
     <string name="settings_home_style_title">Settings homepage style</string>
