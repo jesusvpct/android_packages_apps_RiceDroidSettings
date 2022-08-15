@@ -16,6 +16,8 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
+    <string name="rice_customizations_title">Customizations</string>
+    <string name="rice_customizations_summary">Themes, Accent Color, font</string>
     <string name="reset_settings_title">恢復默認設置</string>
     <string name="reset_settings_message">這會將大多數 riceDroid 設定重設為目前使用者的預設值。您要繼續嗎？</string>
     <!-- Personalization Categories -->
@@ -455,6 +457,7 @@
     <string name="lockscreen_albumart_filter_tint">主題顏色</string>
     <string name="lockscreen_albumart_filter_blur">模糊</string>
     <string name="lockscreen_albumart_filter_grayblur">灰階和模糊</string>
+    <string name="lockscreen_albumart_filter_blur_radius_title">Blur amount for lockscreen media artwork</string>
     <!-- Pulse music visualizer -->
     <string name="pulse_help_policy_notice_title">關於 Pulse</string>
     <string name="pulse_help_policy_notice_summary">Pulse 是一款優秀的音訊圖形等化器，在裝置播放音樂時運作。</string>
@@ -864,9 +867,8 @@
     <!-- Fingerprint wake and unlock -->
     <string name="fp_wake_unlock_title">使用指紋喚醒並解鎖裝置</string>
     <string name="fp_wake_unlock_summary">螢幕關閉時仍持續啟用指紋辨識</string>
-    <!-- Black theme -->
-    <string name="vivid_theme_title">Vivid monet shades</string>
-    <string name="vivid_theme_summary">Darker and vibrant monet shades</string>
+    <!-- Color Palettes theme -->
+    <string name="color_palette_theme_title">System color palettes</string>
     <!-- Material dismiss all button for notifications -->
     <string name="notification_material_dismiss_title">全部清除按鈕</string>
     <string name="notification_material_dismiss_summary">以浮動按鈕取代「清除所有通知」文字</string>
@@ -942,14 +944,11 @@
     <string name="status_bar_logo_style_guitar_electric">Electric guitar</string>
     <!-- Custom settings dashboard style -->
     <string name="settings_dashboard_style_title">Settings Styles</string>
-    <string name="settings_dashboard_style_oos">RiceUI Gapps</string>
-    <string name="settings_dashboard_style_oos2">RiceUI MicroG</string>
-    <string name="settings_dashboard_style_wave">MaterialUI Gapps</string>
-    <string name="settings_dashboard_style_wave2">MaterialUI MicroG</string>
-    <string name="settings_dashboard_style_rui">PalletteUI Gapps</string>
-    <string name="settings_dashboard_style_rui2">PalletteUI MicroG</string>
-    <string name="settings_dashboard_style_arc">ArcUI Gapps</string>
-    <string name="settings_dashboard_style_arc2">ArcUI MicroG</string>
+    <string name="settings_dashboard_style_oos">Sushi style</string>
+    <string name="settings_dashboard_style_wave">Material style</string>
+    <string name="settings_dashboard_style_rui">Palette style</string>
+    <string name="settings_dashboard_style_arc">Arcane style</string>
+    <string name="settings_dashboard_style_aosp">AOSP/Pixel style</string>
     <string name="settings_base_style_title">Settings background style</string>
     <string name="settings_base_style_summary">Use dual tone background for settings</string>
     <string name="settings_home_style_title">Settings homepage style</string>
@@ -1049,7 +1048,12 @@
     <!-- QS Tile style -->
     <string name="qs_tile_style_title">QS Tile style</string>
     <string name="qs_tile_style_summary">Change quicksettings tile design</string>
-    <!-- Clock Size -->
+    <!-- QS Clock/Date Size -->
     <string name="status_bar_clock_font_size_title">Statusbar Clock font size</string>
     <string name="qs_clock_font_size_title">QS Header Clock font size</string>
+    <string name="qs_date_title_size_title">QS Header Date font size</string>
+    <string name="status_bar_show_clock_bg">Show clock background chip</string>
+    <!-- Color Palettes -->
+    <string name="black_theme">Black Theme</string>
+    <string name="vivid_theme">Vivid Theme</string>
 </resources>
