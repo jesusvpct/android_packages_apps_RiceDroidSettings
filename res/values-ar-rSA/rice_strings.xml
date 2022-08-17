@@ -141,6 +141,9 @@
     <!-- Lockscreen battery info indicator -->
     <string name="lockscreen_battery_info_title">معلومات البطارية</string>
     <string name="lockscreen_battery_info_summary">عرض معلومات البطارية عند الشحن</string>
+    <!-- Lockscreen charge temperature unit -->
+    <string name="lockscreen_charge_temp_unit_title">Temperature unit</string>
+    <string name="lockscreen_charge_temp_unit_summary">Enable for Celcius, disable for Fahrenheit</string>
     <!-- Lockscreen clock color -->
     <string name="lockscreen_clock_color_title">Lockscreen clock color</string>
     <string name="lockscreen_clock_color_summary">Use secondary color for lockscreen clock, if disabled will use color accent</string>
@@ -372,6 +375,8 @@
     <string name="status_bar_battery_style_icon_landscape">أيقونة أفقية (يسار)</string>
     <string name="status_bar_battery_style_circle">دائرة</string>
     <string name="status_bar_battery_style_dotted_circle">دائرة منقطة</string>
+    <string name="status_bar_battery_style_big_circle">Big circle</string>
+    <string name="status_bar_battery_style_big_dotted_circle">Big dotted circle</string>
     <string name="status_bar_battery_style_filled_circle">دائرة معبأة</string>
     <string name="status_bar_battery_style_text">نص</string>
     <string name="status_bar_battery_style_hidden">إخفاء</string>
@@ -491,6 +496,18 @@
     <string name="pulse_custom_div">تباعد الأسطر</string>
     <string name="pulse_filled_block_size">حجم الكتلة</string>
     <string name="pulse_empty_block_size">تباعد الكتل</string>
+    <!-- Qs Pulse Option -->
+    <string name="show_qs_pulse_title">Quick Settings Pulse</string>
+    <string name="show_qs_pulse_summary">Audio visualizer on the quick settings</string>
+    <!-- Pulse Gravity n Mirror Options -->
+    <string name="pulse_custom_gravity_title">Gravity</string>
+    <string name="pulse_custom_gravity_bottom">Bottom</string>
+    <string name="pulse_custom_gravity_top">Top</string>
+    <string name="pulse_custom_gravity_center">Center</string>
+    <string name="visualizer_center_mirrored_title">Center mirrored</string>
+    <string name="visualizer_center_mirrored_summary">Set the visualizer in center mirrored mode</string>
+    <string name="pulse_vertical_mirror_title">Vertical Mirror</string>
+    <string name="pulse_vertical_mirror_summary">Create other pulse and flip vertically</string>
     <!-- Navigation Bar -->
     <string name="navbar_visibility_title">شريط التنقل</string>
     <string name="navbar_visibility_summary">عرض شريط التنقل في أسفل الشاشة</string>
@@ -983,8 +1000,8 @@
     <string name="qs_transparency_summary">Set transparency level for QS background</string>
     <!-- QS tiles layout direction: vertical or horizontal -->
     <string name="qs_tile_layout_category_title">Tile layout</string>
-    <string name="qs_tile_layout_title">Vertical layout</string>
-    <string name="qs_tile_layout_summary">Enable for vertical layout. Default is horizontal</string>
+    <string name="qs_tile_layout_title">Title Alignment</string>
+    <string name="qs_tile_layout_summary">Enable for centered layout.</string>
     <!-- QS rows and columns -->
     <string name="qs_layout_category_title">QS Layout</string>
     <string name="qs_rows_portrait_title">Tile rows on portrait</string>
@@ -1056,4 +1073,10 @@
     <!-- Color Palettes -->
     <string name="black_theme">Black Theme</string>
     <string name="vivid_theme">Vivid Theme</string>
+    <!-- QuickSettings haptic feedback -->
+    <string name="qs_tile_vibration_category_title">Tile vibration options</string>
+    <string name="quick_settings_vibrate_title">Vibrate on touch</string>
+    <string name="quick_settings_vibrate_summary">Vibrate when touching QS tiles</string>
+    <string name="quick_settings_vibrate_duration_title">Vibration duration</string>
+    <string name="quick_settings_vibrate_duration_summary">How many milliseconds to vibrate</string>
 </resources>
