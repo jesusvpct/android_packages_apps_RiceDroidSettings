@@ -497,18 +497,6 @@ Mantén presionado para establecer</string>
     <string name="pulse_custom_div">Espaciado de la barra</string>
     <string name="pulse_filled_block_size">Tamaño de bloque</string>
     <string name="pulse_empty_block_size">Espaciado del bloque</string>
-    <!-- Qs Pulse Option -->
-    <string name="show_qs_pulse_title">Quick Settings Pulse</string>
-    <string name="show_qs_pulse_summary">Audio visualizer on the quick settings</string>
-    <!-- Pulse Gravity n Mirror Options -->
-    <string name="pulse_custom_gravity_title">Gravity</string>
-    <string name="pulse_custom_gravity_bottom">Bottom</string>
-    <string name="pulse_custom_gravity_top">Top</string>
-    <string name="pulse_custom_gravity_center">Center</string>
-    <string name="visualizer_center_mirrored_title">Center mirrored</string>
-    <string name="visualizer_center_mirrored_summary">Set the visualizer in center mirrored mode</string>
-    <string name="pulse_vertical_mirror_title">Vertical Mirror</string>
-    <string name="pulse_vertical_mirror_summary">Create other pulse and flip vertically</string>
     <!-- Navigation Bar -->
     <string name="navbar_visibility_title">Barra de navegación</string>
     <string name="navbar_visibility_summary">Mostrar barra de navegación abajo</string>
@@ -1080,4 +1068,7 @@ Mantén presionado para establecer</string>
     <string name="quick_settings_vibrate_summary">Vibrate when touching QS tiles</string>
     <string name="quick_settings_vibrate_duration_title">Vibration duration</string>
     <string name="quick_settings_vibrate_duration_summary">How many milliseconds to vibrate</string>
+    <!-- Force expanded media notification -->
+    <string name="artwork_media_force_expand_title">Force expanded media notification</string>
+    <string name="artwork_media_force_expand_summary">Always display media player notification as expanded</string>
 </resources>
