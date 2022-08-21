@@ -32,6 +32,13 @@
             android:targetClass="io.chaldeaprjkt.gamespace.settings.SettingsActivity" />
     </Preference>
 
+    <Preference
+        android:key="omnijaws_settings"
+        android:icon="@drawable/ic_weather"
+        android:title="@string/qs_weather_settings_title"
+        android:summary="@string/qs_weather_settings_summary"
+        android:fragment="com.rice.settings.fragments.OmniJawsSettings" />
+
     <!-- Unlock FPS for specific games -->
     <SwitchPreference
         android:key="use_games_spoof"
