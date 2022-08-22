@@ -61,7 +61,6 @@ public class LockScreenSettings extends SettingsPreferenceFragment
     private static final String KEY_FP_WAKE_UNLOCK = "fp_wake_unlock";
     private static final String KEY_RIPPLE_EFFECT = "enable_ripple_effect";
     private static final String AOD_SCHEDULE_KEY = "always_on_display_schedule";
-    private static final String SECONDARY_COLOR_CLOCK = "use_secondary_color_clock";
     
     static final int MODE_DISABLED = 0;
     static final int MODE_NIGHT = 1;
@@ -76,7 +75,6 @@ public class LockScreenSettings extends SettingsPreferenceFragment
     private Preference mRippleEffect;
 
     private SwitchPreference mFingerprintWakeUnlock;
-    private SystemSettingSwitchPreference mSecondaryColorClock;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -119,8 +117,6 @@ public class LockScreenSettings extends SettingsPreferenceFragment
                 mFingerprintWakeUnlock.setChecked(fpWakeUnlockEnabled);
             }
         }
-        mSecondaryColorClock = (SystemSettingSwitchPreference) findPreference(SECONDARY_COLOR_CLOCK);
-        mSecondaryColorClock.setOnPreferenceChangeListener(this);
     }
 
     @Override
@@ -155,10 +151,6 @@ public class LockScreenSettings extends SettingsPreferenceFragment
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
-    	if (preference == mSecondaryColorClock) {
-            Utils.showSysUIRestartDialog(getContext());
-            return true;
-        }
         return false;
     }
 

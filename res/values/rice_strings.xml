@@ -177,7 +177,7 @@
 
     <!-- Lockscreen clock color -->
     <string name="lockscreen_clock_color_title">Lockscreen clock color</string>
-    <string name="lockscreen_clock_color_summary">Use secondary color for lockscreen clock, if disabled will use color accent</string>
+    <string name="lockscreen_clock_color_summary">Use secondary color for lockscreen clock (requires reboot)</string>
     
     <!-- Button settings -->
     <string name="additional_buttons_title">Additional buttons</string>
@@ -1121,7 +1121,7 @@
     <string name="lockscreen_shortcuts_summary">Configure lockscreen shortcuts</string>
 
     <string name="notification_headers_title">Notification Headers</string>
-    <string name="notification_headers_summary">Show headers in the notification shade</string>
+    <string name="notification_headers_summary">Show headers in the notification shade(requires reboot)</string>
 
     <!-- IME button space -->
     <string name="navigation_bar_ime_space_title">IME button space</string>
@@ -1217,8 +1217,8 @@
     <string name="statusbar_right_padding">Right padding</string>
     
     <!-- QS Tile style -->
-    <string name="qs_tile_style_title">QS Tile style</string>
-    <string name="qs_tile_style_summary">Change quicksettings tile design</string>
+    <string name="qs_tile_style_title">Quicksettings style</string>
+    <string name="qs_tile_style_summary">Change quicksettings design (requires reboot)</string>
     
     <!-- QS Clock/Date Size -->
     <string name="status_bar_clock_font_size_title">Statusbar Clock font size</string>

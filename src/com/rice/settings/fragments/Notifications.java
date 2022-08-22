@@ -58,7 +58,6 @@ public class Notifications extends SettingsPreferenceFragment implements
     private static final String FLASHLIGHT_DND_PREF = "flashlight_on_call_ignore_dnd";
     private static final String FLASHLIGHT_RATE_PREF = "flashlight_on_call_rate";
     private static final String HEADS_UP_TIMEOUT_PREF = "heads_up_timeout";
-    private static final String NOTIF_HEAD = "notification_headers";
 
     private Preference mAlertSlider;
     private Preference mBatLights;
@@ -68,7 +67,6 @@ public class Notifications extends SettingsPreferenceFragment implements
     private SwitchPreference mFlashOnCallIgnoreDND;
     private CustomSeekBarPreference mFlashOnCallRate;
     private CustomSeekBarPreference mHeadsUpTimeOut;
-    private SystemSettingSwitchPreference mNotifHead;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -129,8 +127,6 @@ public class Notifications extends SettingsPreferenceFragment implements
             mFlashOnCallIgnoreDND.setEnabled(value > 1);
             mFlashOnCallRate.setEnabled(value > 0);
         }
-        mNotifHead = (SystemSettingSwitchPreference) findPreference(NOTIF_HEAD);
-        mNotifHead.setOnPreferenceChangeListener(this);
     }
 
     @Override
@@ -139,9 +135,6 @@ public class Notifications extends SettingsPreferenceFragment implements
             int value = Integer.parseInt((String) newValue);
             mFlashOnCallIgnoreDND.setEnabled(value > 1);
             mFlashOnCallRate.setEnabled(value > 0);
-            return true;
-	} else if (preference == mNotifHead) {
-            Utils.showSysUIRestartDialog(getContext());
             return true;
         }
         return false;
