@@ -27,14 +27,6 @@
             android:targetClass="org.omnirom.omnijaws.SettingsActivityService" />
     </Preference>
 
-      <com.rice.settings.preferences.SystemSettingListPreference
-        android:key="qs_show_weather_temp"
-        android:icon="@drawable/ic_weather"
-        android:title="@string/qs_weather_title"
-        android:dialogTitle="@string/qs_weather_dialog_title"
-        android:entries="@array/qs_weather_entries"
-        android:entryValues="@array/qs_weather_values" />
-
         <ListPreference
             android:key="weather_icon_pack"
             android:icon="@drawable/ic_omni"
