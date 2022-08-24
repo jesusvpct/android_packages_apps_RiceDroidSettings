@@ -16,8 +16,8 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
-    <string name="rice_customizations_title">Customizations</string>
-    <string name="rice_customizations_summary">Themes, Accent Color, font</string>
+    <string name="rice_customizations_title">Özelleştirmeler</string>
+    <string name="rice_customizations_summary">Temalar, vurgu rengi, yazı tipi</string>
     <string name="reset_settings_title">Ayarları sıfırla</string>
     <string name="reset_settings_message">Bu mevcut kullanıcı için çoğu rice ayarlarını varsayılan değerlerine sıfırlar. Devam etmek ister misin?</string>
     <!-- Personalization Categories -->
@@ -58,7 +58,7 @@
     <string name="changelog_rice_title">Mevcut değişiklikler</string>
     <string name="changelog_rice_summary">Yüklü ROM\'daki değişiklikleri görüntüleyin</string>
     <string name="changelog_rice_error">Değişiklikler yüklenemiyor</string>
-    <string name="what_is_rice">riceDroid\'i nedir?</string>
+    <string name="what_is_rice">riceDroid nedir?</string>
     <string name="what_is_rice_summary">Ricedroid lineage/crDroid tabanlı hız ve stabilite ağırlıklı bir işletim sistemidir.</string>
     <string name="rice_terminology">Terminoloji</string>
     <string name="rice_terminology_summary">Proje ismindeki rice (yiyecek) pirinç olarak algılanabilir, fakat asıl olarak linux terimi karışım anlamına gelmektedir. </string>
@@ -142,11 +142,11 @@
     <string name="lockscreen_battery_info_title">Pil bilgisi</string>
     <string name="lockscreen_battery_info_summary">Şarj olurken pil bilgilerini görüntüle</string>
     <!-- Lockscreen charge temperature unit -->
-    <string name="lockscreen_charge_temp_unit_title">Temperature unit</string>
-    <string name="lockscreen_charge_temp_unit_summary">Enable for Celcius, disable for Fahrenheit</string>
+    <string name="lockscreen_charge_temp_unit_title">Sıcaklık birimi</string>
+    <string name="lockscreen_charge_temp_unit_summary">Celcius için etkinleştir, Fahrenheit için devre dışı bırak</string>
     <!-- Lockscreen clock color -->
     <string name="lockscreen_clock_color_title">Kilit ekranı saati rengi</string>
-    <string name="lockscreen_clock_color_summary">Use secondary color for lockscreen clock (requires reboot)</string>
+    <string name="lockscreen_clock_color_summary">Kilit ekranı saati rengi için ikinci renk kullan (Yeniden başlatma gerekir)</string>
     <!-- Button settings -->
     <string name="additional_buttons_title">Ek tuşlar</string>
     <string name="hardware_keys_power_key_title">Güç tuşu</string>
@@ -375,8 +375,8 @@
     <string name="status_bar_battery_style_icon_landscape">Yatay simge (Sol)</string>
     <string name="status_bar_battery_style_circle">Daire</string>
     <string name="status_bar_battery_style_dotted_circle">Noktalı daire</string>
-    <string name="status_bar_battery_style_big_circle">Big circle</string>
-    <string name="status_bar_battery_style_big_dotted_circle">Big dotted circle</string>
+    <string name="status_bar_battery_style_big_circle">Büyük daire</string>
+    <string name="status_bar_battery_style_big_dotted_circle">Büyük noktalı daire</string>
     <string name="status_bar_battery_style_filled_circle">Dolgulu daire</string>
     <string name="status_bar_battery_style_text">Metin</string>
     <string name="status_bar_battery_style_hidden">Gizle</string>
@@ -462,7 +462,7 @@
     <string name="lockscreen_albumart_filter_tint">Vurgu renkli</string>
     <string name="lockscreen_albumart_filter_blur">Bulanık</string>
     <string name="lockscreen_albumart_filter_grayblur">Gri tonlamalı ve bulanık</string>
-    <string name="lockscreen_albumart_filter_blur_radius_title">Blur amount for lockscreen media artwork</string>
+    <string name="lockscreen_albumart_filter_blur_radius_title">Medya resmi bulanıklık miktarı</string>
     <!-- Pulse music visualizer -->
     <string name="pulse_help_policy_notice_title">Pulse hakkında</string>
     <string name="pulse_help_policy_notice_summary">Müzik çalarken kilit ekranında görünen akıllı bir ses grafik görselleştirmesidir</string>
@@ -761,7 +761,7 @@
     <string name="face_unlock_method_swipe">Kilit ekranında kaydırırken</string>
     <!-- Combined signal icons in status bar -->
     <string name="combined_status_bar_signal_icons_title">Birleşik sinyal simgeleri</string>
-    <string name="combined_status_bar_signal_icons_summary">Show single combined icon for WiFi and mobile signal</string>
+    <string name="combined_status_bar_signal_icons_summary">WiFi ve mobil veri için birleşik tek bir simge göster</string>
     <!-- Wifi/Bluetooth auto timeout -->
     <string name="wifi_timeout">WiFi zaman aşımı</string>
     <string name="wifi_timeout_summary">WiFi\'yi otomatik olarak kapatma</string>
@@ -872,9 +872,8 @@
     <!-- Fingerprint wake and unlock -->
     <string name="fp_wake_unlock_title">Parmak izi ile uyandırma ve kilit açma</string>
     <string name="fp_wake_unlock_summary">Ekran kapalıyken parmak izini dinleyin</string>
-    <!-- Black theme -->
-    <string name="vivid_theme_title">Vivid monet shades</string>
-    <string name="vivid_theme_summary">Darker and vibrant monet shades</string>
+    <string name="vivid_theme_title">Parlak monet renk tonları</string>
+    <string name="vivid_theme_summary">Daha koyu ve parlak monet renk tonları</string>
     <!-- Material dismiss all button for notifications -->
     <string name="notification_material_dismiss_title">Tüm bildirimleri temizleme tuşu</string>
     <string name="notification_material_dismiss_summary">Tümünü temizleme bildirim metnini materyal stili kayan tuş ile değiştirin</string>
@@ -968,7 +967,7 @@
     <string name="lockscreen_shortcuts">Kilit ekranı kısayolları</string>
     <string name="lockscreen_shortcuts_summary">Kilit ekranı kısayollarını özelleştir</string>
     <string name="notification_headers_title">Bildirim Başlığı</string>
-    <string name="notification_headers_summary">Show headers in the notification shade(requires reboot)</string>
+    <string name="notification_headers_summary">Başlıkları bildirim gölgesinde göster (Yeniden başlatma gerekir)</string>
     <!-- IME button space -->
     <string name="navigation_bar_ime_space_title">Giriş yöntemi düzenleyicisi tuşu alanı</string>
     <string name="navigation_bar_ime_space_summary">Klavyenin altında giriş yöntemi düzenleyicisi tuş alanını göster</string>
@@ -985,12 +984,12 @@
     <string name="qs_footer_datausage_title">Veri kullanımı</string>
     <string name="qs_footer_datausage_summary">Hızlı ayarlar alt bilgisinde veri kullanım özetini göster</string>
     <!-- QS Transparency -->
-    <string name="qs_transparency_title">QuickSettings transparency</string>
+    <string name="qs_transparency_title">Hızlı ayarlar saydamlığı</string>
     <string name="qs_transparency_summary">Hızlı ayarlar arka planı için şeffaflık seviyesi ayarla</string>
     <!-- QS tiles layout direction: vertical or horizontal -->
     <string name="qs_tile_layout_category_title">Kare düzeni</string>
-    <string name="qs_tile_layout_title">Title Alignment</string>
-    <string name="qs_tile_layout_summary">Enable for centered layout.</string>
+    <string name="qs_tile_layout_title">Kare hizalama</string>
+    <string name="qs_tile_layout_summary">Ortalanmış düzen için etkinleştir.</string>
     <!-- QS rows and columns -->
     <string name="qs_layout_category_title">Hızlı ayar paneli düzeni</string>
     <string name="qs_rows_portrait_title">Dikey modda satırlar</string>
@@ -1048,25 +1047,26 @@
     <string name="qs_system_info_gpu_clock">GPU frekansı</string>
     <string name="qs_system_info_gpu_busy">GPU kullanımı</string>
     <!-- Status bar padding -->
-    <string name="statusbar_padding">Status bar padding</string>
-    <string name="statusbar_left_padding">Left padding</string>
-    <string name="statusbar_right_padding">Right padding</string>
+    <string name="statusbar_padding">Durum çubuğu kenar dolgusu</string>
+    <string name="statusbar_left_padding">Sol dolgu</string>
+    <string name="statusbar_right_padding">Sağ dolgu</string>
     <!-- QS Tile style -->
-    <string name="qs_tile_style_title">Quicksettings style</string>
-    <string name="qs_tile_style_summary">Change quicksettings design (requires reboot)</string>
+    <string name="qs_tile_style_title">Hızlı ayarlar stili</string>
+    <string name="qs_tile_style_summary">Hızlı ayarlar kare dizaynını değiştirin (Yeniden başlatma gerekir)</string>
     <!-- QS Clock/Date Size -->
-    <string name="status_bar_clock_font_size_title">Statusbar Clock font size</string>
-    <string name="qs_clock_font_size_title">QS Header Clock font size</string>
-    <string name="qs_date_title_size_title">QS Header Date font size</string>
-    <string name="status_bar_show_clock_bg">Show clock background chip</string>
+    <string name="status_bar_clock_font_size_title">Saat yazı boyutu</string>
+    <string name="qs_clock_font_size_title">Hızlı ayarlar başlığı saat yazı boyutu</string>
+    <string name="qs_date_title_size_title">Hızlı ayarlar başlığı tarih boyutu</string>
+    <string name="status_bar_show_clock_bg">Saat arka planını göster</string>
     <!-- QuickSettings haptic feedback -->
-    <string name="qs_tile_vibration_category_title">Tile vibration options</string>
-    <string name="quick_settings_vibrate_title">Vibrate on touch</string>
-    <string name="quick_settings_vibrate_summary">Vibrate when touching QS tiles</string>
-    <string name="quick_settings_vibrate_duration_title">Vibration duration</string>
-    <string name="quick_settings_vibrate_duration_summary">How many milliseconds to vibrate</string>
+    <string name="qs_tile_vibration_category_title">Kare titreşim seçenekleri</string>
+    <string name="quick_settings_vibrate_title">Dokunulduğunda titret</string>
+    <string name="quick_settings_vibrate_summary">Hızlı ayarlar karelerine dokunulduğunda titret</string>
+    <string name="quick_settings_vibrate_duration_title">Titreşim süresi</string>
+    <string name="quick_settings_vibrate_duration_summary">Titreşimin ne kadar süreceği</string>
     <!-- QS Extras -->
-    <string name="qs_extras">Quick Settings Extras</string>
+    <string name="qs_extras">Hızlı ayarlar ekstra</string>
+
     <!-- QS Weather Options -->
     <string name="qs_weather_title">QuickSettings weather</string>
     <string name="qs_weather_summary">Configure QuickSettings Weather</string>
@@ -1093,6 +1093,6 @@
     <string name="qsweather_settings_title">QuickSettings Weather</string>
     <string name="qsweather_settings_summary">Setup quicksettings weather views</string>
     <!-- Toast app icon -->
-    <string name="toast_icon_title">Toast app icon</string>
-    <string name="toast_icon_summary">Display the app\'s icon corresponding with the toast</string>
+    <string name="toast_icon_title">Toast uygulama simgesi</string>
+    <string name="toast_icon_summary">Bildirim ile uyumlu uygulama simgesi göster</string>
 </resources>
