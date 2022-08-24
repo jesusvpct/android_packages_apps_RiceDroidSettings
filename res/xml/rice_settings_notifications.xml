@@ -149,41 +149,4 @@
             android:fragment="com.rice.settings.fragments.notifications.notificationlight.NotificationLightSettings" />
     </PreferenceCategory>
 
-    <PreferenceCategory
-        android:title="@string/media_category">
-
-        <com.rice.settings.preferences.SystemSettingSwitchPreference
-            android:key="media_artwork_enabled"
-            android:title="@string/artwork_media_background_title"
-            android:icon="@drawable/ic_music"
-            android:summary="@string/artwork_media_background_summary"
-            android:defaultValue="false" />
-
-        <com.rice.settings.preferences.SystemSettingSeekBarPreference
-            android:key="media_artwork_fade_percent"
-            android:icon="@drawable/ic_custom_seekbar_plus"
-            android:title="@string/artwork_media_background_fade_filter_title"
-            android:dependency="media_artwork_enabled"
-            android:defaultValue="30"
-            android:max="50"
-            settings:min="1" />
-
-        <com.rice.settings.preferences.SystemSettingSwitchPreference
-            android:key="media_artwork_blur_enabled"
-            android:icon="@drawable/ic_blur"
-            android:title="@string/artwork_media_background_enable_blur_title"
-            android:dependency="media_artwork_enabled"
-            android:defaultValue="false" />
-
-        <com.rice.settings.preferences.SystemSettingSeekBarPreference
-            android:key="media_artwork_blur_radius"
-            android:icon="@drawable/ic_custom_seekbar_plus"
-            android:title="@string/artwork_media_background_blur_radius_title"
-            android:dependency="media_artwork_blur_enabled"
-            android:defaultValue="1"
-            android:max="25"
-            settings:min="1" />
-
-    </PreferenceCategory>
-
 </PreferenceScreen>
